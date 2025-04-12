@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Andi Sarhad Jamil - Software Engineering Student & UI/UX Designer Portfolio">
+    <title>Andi Sarhad Jamil - Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">ASJ</a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="home">
+            <div class="home__container container">
+                <div class="home__content">
+                    <h1 class="home__title">Hi, I'm Andi Sarhad Jamil</h1>
+                    <p class="home__subtitle">Software Engineering Student & UI/UX Designer</p>
+                    <a href="#contact" class="button">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about section">
+            <div class="container">
+                <h2 class="section__title">About Me</h2>
+                <div class="about__container">
+                    <div class="about__img">
+                        <img src="/miniproject-ai/profile.jpg" alt="andi">
+                    </div>
+                    <div class="about__text">
+                        <p>Hello! I'm a 22-year-old Software Engineering student at the University of Kurdistan Hewler, currently in my third year. I'm passionate about creating beautiful and functional web experiences.</p>
+                        <p>With expertise in UI/UX design, web development, and interior design, I strive to build intuitive and visually appealing interfaces. Additionally, I work as an event planner, specializing in birthdays and special occasions.</p>
+                        <p>Being multilingual, I can communicate effectively in English, French, Arabic, Kurdish, and Kaldean, which helps me collaborate with diverse teams and clients.</p>
+
+                        <!-- CV Button -->
+                         <!-- CV Button -->
+                          <!-- CV Button -->
+<a href="cv.pdf" class="button" download target="_blank">
+    <i class="fas fa-file-download"></i> View My CV
+</a>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills section">
+            <div class="container">
+                <h2 class="section__title">Skills</h2>
+                <div class="skills__container">
+                    <div class="skill__card">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>HTML, CSS, JavaScript</p>
+                    </div>
+                    <div class="skill__card">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>UI/UX Design</h3>
+                        <p>Figma, Adobe XD</p>
+                    </div>
+                    <div class="skill__card">
+                        <i class="fas fa-home"></i>
+                        <h3>Interior Design</h3>
+                        <p>Space Planning, Color Theory</p>
+                    </div>
+                    <div class="skill__card">
+                        <i class="fas fa-calendar-check"></i>
+                        <h3>Event Planning</h3>
+                        <p>Birthday Events, Special Occasions</p>
+                    </div>
+                    <div class="skill__card languages">
+                        <i class="fas fa-language"></i>
+                        <h3>Languages</h3>
+                        <ul class="language__list">
+                            <li>English</li>
+                            <li>French</li>
+                            <li>Arabic</li>
+                            <li>Kurdish</li>
+                            <li>Chaldean</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section">
+            <div class="container">
+                <h2 class="section__title">Get In Touch</h2>
+                <div class="contact__container">
+                    <div class="contact__info">
+                        <div class="contact__item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:andijamil2002@gmail.com">andijamil2002@gmail.com</a>
+                        </div>
+                        <div class="contact__item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+9647705382929">+964 770 538 2929</a>
+                        </div>
+                        <div class="contact__item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Erbil, Kurdistan Region, Iraq</p>
+                        </div>
+                    </div>
+                    <form id="contact-form" class="contact__form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit" class="button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__social">
+                <a href="#" class="footer__social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="footer__social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="footer__social-link"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="footer__copy">&copy; 2025 Andi Sarhad Jamil. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
